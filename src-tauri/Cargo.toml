@@ -16,6 +16,8 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 # grid-launcher used
 minecraft-msa-auth = "=0.4.0"
+mc_bootstrap = {version = "0.1.1", git = "https://github.com/minecraft-rs/bootstrap.git"}
+mc_downloader = {version = "0.1.0", git = "https://github.com/minecraft-rs/downloader.git"}
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
